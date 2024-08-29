@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Peças para Skate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .item-section {
+            margin-bottom: 40px;
+        }
+        .item-section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .item-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: calc(33.333% - 40px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .item h3 {
+            color: #333;
+            margin: 20px 0 10px;
+        }
+        .item p {
+            color: #666;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de Peças para Skate</h1>
+    </header>
+    <nav>
+        <a href="#shapes">Shapes</a>
+        <a href="#rodas">Rodas</a>
+    </nav>
+    <div class="container">
+        <section id="shapes" class="item-section">
+            <h2>Shapes</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="shape1.jpg" alt="Shape 1">
+                    <h3>Shape Profissional</h3>
+                    <p>Shape de alta qualidade, ideal para manobras.</p>
+                </div>
+                <div class="item">
+                    <img src="shape2.jpg" alt="Shape 2">
+                    <h3>Shape Iniciante</h3>
+                    <p>Perfeito para quem está começando no skate.</p>
+                </div>
+                <div class="item">
+                    <img src="shape.jpg" alt="Shape 3">
+                    <h3>Shape Personalizado</h3>
+                    <p>Customize seu próprio shape com design exclusivo.</p>
+                </div>
+            </div>
+        </section>
+        <section id="rodas" class="item-section">
+            <h2>Rodas</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="rodas1.jpg" alt="Rodas 1">
+                    <h3>Rodas de Velocidade</h3>
+                    <p>Rodas com alta resistência e velocidade.</p>
+                </div>
+                <div class="item">
+                    <img src="rodas2.jpg" alt="Rodas 2">
+                    <h3>Rodas para Street</h3>
+                    <p>Ideal para andar nas ruas e parques.</p>
+                </div>
+                <div class="item">
+                    <img src="rodas.jpg" alt="Rodas 3">
+                    <h3>Rodas para Downhill</h3>
+                    <p>Perfeitas para descidas e alta performance.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Loja de Peças para Skate. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
